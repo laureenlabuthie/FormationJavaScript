@@ -180,7 +180,27 @@ console.log(
     + '$'
 );
 
+//ASTUCE:
 
+
+// Trois façons de créer une fonction:
+
+
+//1. Création d'une fonction 'l'.
+function l(e) {
+    console.log(e);
+}
+
+
+//2. Identique, sauf que la fonction est stocké dans une variable 'l'.
+l = function(e) {
+
+    console.log(e);
+}
+
+
+//3. Identique, mais avec des fonctions fléchés ECMA 6.
+l = e => console.log(e);
 
       
 
